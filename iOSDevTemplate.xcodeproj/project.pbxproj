@@ -26,6 +26,7 @@
 		00C666881B49949B007CADFF /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C666871B49949B007CADFF /* BaseNavigationController.m */; };
 		00C6668C1B499579007CADFF /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C6668B1B499579007CADFF /* BaseTabBarController.m */; };
 		00C6668F1B4995E7007CADFF /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C6668E1B4995E7007CADFF /* BaseTableViewController.m */; };
+		00CF53B81B4AE18200D0C8F0 /* UserDefaultsUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CF53B71B4AE18200D0C8F0 /* UserDefaultsUtils.m */; };
 		417EA478E26C759ABCDBB547 /* libPods-iOSDevTemplate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 521D3C9AA7D9542E7B98A922 /* libPods-iOSDevTemplate.a */; };
 /* End PBXBuildFile section */
 
@@ -79,6 +80,8 @@
 		00C6668B1B499579007CADFF /* BaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
 		00C6668D1B4995E7007CADFF /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
 		00C6668E1B4995E7007CADFF /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
+		00CF53B61B4AE18200D0C8F0 /* UserDefaultsUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultsUtils.h; sourceTree = "<group>"; };
+		00CF53B71B4AE18200D0C8F0 /* UserDefaultsUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultsUtils.m; sourceTree = "<group>"; };
 		521D3C9AA7D9542E7B98A922 /* libPods-iOSDevTemplate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSDevTemplate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C44487AD009E48702A812240 /* Pods-iOSDevTemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSDevTemplate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSDevTemplate/Pods-iOSDevTemplate.debug.xcconfig"; sourceTree = "<group>"; };
 		E368C08A37FE1B28E2957989 /* Pods-iOSDevTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSDevTemplate.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSDevTemplate/Pods-iOSDevTemplate.release.xcconfig"; sourceTree = "<group>"; };
@@ -210,6 +213,8 @@
 			children = (
 				00C6667D1B49901C007CADFF /* AppUtils.h */,
 				00C6667E1B49901C007CADFF /* AppUtils.m */,
+				00CF53B61B4AE18200D0C8F0 /* UserDefaultsUtils.h */,
+				00CF53B71B4AE18200D0C8F0 /* UserDefaultsUtils.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -420,6 +425,7 @@
 				00C666651B494359007CADFF /* AppLaunchHelper.m in Sources */,
 				00C6668F1B4995E7007CADFF /* BaseTableViewController.m in Sources */,
 				00C6663E1B492F0A007CADFF /* ViewController.m in Sources */,
+				00CF53B81B4AE18200D0C8F0 /* UserDefaultsUtils.m in Sources */,
 				00C666741B49475A007CADFF /* ResponseBaseModel.m in Sources */,
 				00C666381B492F0A007CADFF /* main.m in Sources */,
 				00C666731B49475A007CADFF /* RequestBaseModel.m in Sources */,
