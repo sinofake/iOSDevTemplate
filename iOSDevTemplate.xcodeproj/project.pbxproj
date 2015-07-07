@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		006B5E3F1B4BC0A200028BFF /* NSString+Pinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = 006B5E3E1B4BC0A200028BFF /* NSString+Pinyin.m */; };
 		00C666381B492F0A007CADFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C666371B492F0A007CADFF /* main.m */; };
 		00C6663E1B492F0A007CADFF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C6663D1B492F0A007CADFF /* ViewController.m */; };
 		00C666411B492F0A007CADFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00C6663F1B492F0A007CADFF /* Main.storyboard */; };
@@ -27,6 +28,10 @@
 		00C6668C1B499579007CADFF /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C6668B1B499579007CADFF /* BaseTabBarController.m */; };
 		00C6668F1B4995E7007CADFF /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C6668E1B4995E7007CADFF /* BaseTableViewController.m */; };
 		00CF53B81B4AE18200D0C8F0 /* UserDefaultsUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CF53B71B4AE18200D0C8F0 /* UserDefaultsUtils.m */; };
+		00D0D4BC1B4B68750020A5C7 /* 37x-Checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 00D0D4B81B4B68740020A5C7 /* 37x-Checkmark.png */; };
+		00D0D4BD1B4B68750020A5C7 /* 37x-Checkmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00D0D4B91B4B68740020A5C7 /* 37x-Checkmark@2x.png */; };
+		00D0D4BE1B4B68750020A5C7 /* MBProgressHUDWrap.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D0D4BB1B4B68750020A5C7 /* MBProgressHUDWrap.m */; };
+		00D0D4C11B4B791E0020A5C7 /* FileManagerUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D0D4C01B4B791E0020A5C7 /* FileManagerUtils.m */; };
 		417EA478E26C759ABCDBB547 /* libPods-iOSDevTemplate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 521D3C9AA7D9542E7B98A922 /* libPods-iOSDevTemplate.a */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		006B5E3D1B4BC0A200028BFF /* NSString+Pinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Pinyin.h"; sourceTree = "<group>"; };
+		006B5E3E1B4BC0A200028BFF /* NSString+Pinyin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Pinyin.m"; sourceTree = "<group>"; };
 		00C666321B492F0A007CADFF /* iOSDevTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSDevTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00C666361B492F0A007CADFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00C666371B492F0A007CADFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -82,6 +89,12 @@
 		00C6668E1B4995E7007CADFF /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
 		00CF53B61B4AE18200D0C8F0 /* UserDefaultsUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultsUtils.h; sourceTree = "<group>"; };
 		00CF53B71B4AE18200D0C8F0 /* UserDefaultsUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultsUtils.m; sourceTree = "<group>"; };
+		00D0D4B81B4B68740020A5C7 /* 37x-Checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "37x-Checkmark.png"; sourceTree = "<group>"; };
+		00D0D4B91B4B68740020A5C7 /* 37x-Checkmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "37x-Checkmark@2x.png"; sourceTree = "<group>"; };
+		00D0D4BA1B4B68740020A5C7 /* MBProgressHUDWrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUDWrap.h; sourceTree = "<group>"; };
+		00D0D4BB1B4B68750020A5C7 /* MBProgressHUDWrap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUDWrap.m; sourceTree = "<group>"; };
+		00D0D4BF1B4B791E0020A5C7 /* FileManagerUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileManagerUtils.h; sourceTree = "<group>"; };
+		00D0D4C01B4B791E0020A5C7 /* FileManagerUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileManagerUtils.m; sourceTree = "<group>"; };
 		521D3C9AA7D9542E7B98A922 /* libPods-iOSDevTemplate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSDevTemplate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C44487AD009E48702A812240 /* Pods-iOSDevTemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSDevTemplate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSDevTemplate/Pods-iOSDevTemplate.debug.xcconfig"; sourceTree = "<group>"; };
 		E368C08A37FE1B28E2957989 /* Pods-iOSDevTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSDevTemplate.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSDevTemplate/Pods-iOSDevTemplate.release.xcconfig"; sourceTree = "<group>"; };
@@ -106,6 +119,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		006B5E3C1B4BC0A200028BFF /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				006B5E3D1B4BC0A200028BFF /* NSString+Pinyin.h */,
+				006B5E3E1B4BC0A200028BFF /* NSString+Pinyin.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
 		00C666291B492F0A007CADFF = {
 			isa = PBXGroup;
 			children = (
@@ -197,6 +219,7 @@
 		00C6665F1B494319007CADFF /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				006B5E3C1B4BC0A200028BFF /* NSString */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -204,6 +227,7 @@
 		00C666601B494319007CADFF /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				00D0D4B71B4B68740020A5C7 /* MBProgressHUDWrap */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -215,6 +239,8 @@
 				00C6667E1B49901C007CADFF /* AppUtils.m */,
 				00CF53B61B4AE18200D0C8F0 /* UserDefaultsUtils.h */,
 				00CF53B71B4AE18200D0C8F0 /* UserDefaultsUtils.m */,
+				00D0D4BF1B4B791E0020A5C7 /* FileManagerUtils.h */,
+				00D0D4C01B4B791E0020A5C7 /* FileManagerUtils.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -265,6 +291,17 @@
 				00C6668B1B499579007CADFF /* BaseTabBarController.m */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		00D0D4B71B4B68740020A5C7 /* MBProgressHUDWrap */ = {
+			isa = PBXGroup;
+			children = (
+				00D0D4B81B4B68740020A5C7 /* 37x-Checkmark.png */,
+				00D0D4B91B4B68740020A5C7 /* 37x-Checkmark@2x.png */,
+				00D0D4BA1B4B68740020A5C7 /* MBProgressHUDWrap.h */,
+				00D0D4BB1B4B68750020A5C7 /* MBProgressHUDWrap.m */,
+			);
+			path = MBProgressHUDWrap;
 			sourceTree = "<group>";
 		};
 		24CF1D859631CE07E1FD2A05 /* Pods */ = {
@@ -366,8 +403,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00D0D4BC1B4B68750020A5C7 /* 37x-Checkmark.png in Resources */,
 				00C666411B492F0A007CADFF /* Main.storyboard in Resources */,
 				00C666461B492F0A007CADFF /* LaunchScreen.xib in Resources */,
+				00D0D4BD1B4B68750020A5C7 /* 37x-Checkmark@2x.png in Resources */,
 				00C666431B492F0A007CADFF /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -423,9 +462,12 @@
 				00C666851B499415007CADFF /* BaseViewController.m in Sources */,
 				00C6667C1B49516C007CADFF /* ApiHook.m in Sources */,
 				00C666651B494359007CADFF /* AppLaunchHelper.m in Sources */,
+				006B5E3F1B4BC0A200028BFF /* NSString+Pinyin.m in Sources */,
+				00D0D4C11B4B791E0020A5C7 /* FileManagerUtils.m in Sources */,
 				00C6668F1B4995E7007CADFF /* BaseTableViewController.m in Sources */,
 				00C6663E1B492F0A007CADFF /* ViewController.m in Sources */,
 				00CF53B81B4AE18200D0C8F0 /* UserDefaultsUtils.m in Sources */,
+				00D0D4BE1B4B68750020A5C7 /* MBProgressHUDWrap.m in Sources */,
 				00C666741B49475A007CADFF /* ResponseBaseModel.m in Sources */,
 				00C666381B492F0A007CADFF /* main.m in Sources */,
 				00C666731B49475A007CADFF /* RequestBaseModel.m in Sources */,

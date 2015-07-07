@@ -12,12 +12,27 @@
 #define BASE_URL @"http://sinofake.com/"
 
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+#define SCREEN_WIDTH    ([[UIScreen mainScreen] bounds].size.width)
+#define SCREEN_HEIGHT   ([[UIScreen mainScreen] bounds].size.height)
+#define SCREEN_SCALE    (1.0f/[UIScreen mainScreen].scale)
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+#define OBJECTISNULL(obj)       [obj isEqual:[NSNull null]]
+// 判断字符串是否有值
+#define STRINGHASVALUE(str)		(str && [str isKindOfClass:[NSString class]] && [str stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]].length > 0)
+// 判断数组是否有值
+#define ARRAYHASVALUE(array)    (array && [array isKindOfClass:[NSArray class]] && [array count] > 0)
+// 判断字典是否有值
+#define DICTIONARYHASVALUE(dic) (dic && [dic isKindOfClass:[NSDictionary class]] && [dic count] > 0)
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 #define UIColorFromHex(hex) [UIColor colorWithRed:((CGFloat)((hex & 0xFF0000) >> 16))/255.0 green:((CGFloat)((hex & 0xFF00) >> 8))/255.0 blue:((CGFloat)(hex & 0xFF))/255.0 alpha:1.0]
 
 #define UIColorFromHexAndAlpha(hex, a) [UIColor colorWithRed:((CGFloat)((hex & 0xFF0000) >> 16))/255.0 green:((CGFloat)((hex & 0xFF00) >> 8))/255.0 blue:((CGFloat)(hex & 0xFF))/255.0 alpha:a]
+
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 #if __IPHONE_OS_VERSION_MIN_REQUIRED >= 70000
@@ -28,6 +43,7 @@ attributes:@{NSFontAttributeName:font} context:nil].size : CGSizeZero;
 #define TEXTSIZE(text, font, maxSize) [text length] > 0 ? [text \
 sizeWithFont:font constrainedToSize:maxSize lineBreakMode:NSLineBreakByWordWrapping] : CGSizeZero;
 #endif
+
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // block self
