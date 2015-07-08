@@ -18,6 +18,7 @@
 
 #import "GlobalDefine.h"
 #import "AppUtils.h"
+#import "UIImage+FileName.h"
 
 
 #endif

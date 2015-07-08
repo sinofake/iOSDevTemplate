@@ -32,6 +32,9 @@
 		00D0D4BD1B4B68750020A5C7 /* 37x-Checkmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00D0D4B91B4B68740020A5C7 /* 37x-Checkmark@2x.png */; };
 		00D0D4BE1B4B68750020A5C7 /* MBProgressHUDWrap.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D0D4BB1B4B68750020A5C7 /* MBProgressHUDWrap.m */; };
 		00D0D4C11B4B791E0020A5C7 /* FileManagerUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D0D4C01B4B791E0020A5C7 /* FileManagerUtils.m */; };
+		00D0F52D1B4D0B220040CDC7 /* UIImage+FileName.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D0F52C1B4D0B220040CDC7 /* UIImage+FileName.m */; };
+		00D0F5301B4D22120040CDC7 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D0F52F1B4D22120040CDC7 /* UIImage+Color.m */; };
+		00D0F5341B4D3C570040CDC7 /* NSArray+SafeAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D0F5331B4D3C570040CDC7 /* NSArray+SafeAccess.m */; };
 		417EA478E26C759ABCDBB547 /* libPods-iOSDevTemplate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 521D3C9AA7D9542E7B98A922 /* libPods-iOSDevTemplate.a */; };
 /* End PBXBuildFile section */
 
@@ -95,6 +98,12 @@
 		00D0D4BB1B4B68750020A5C7 /* MBProgressHUDWrap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUDWrap.m; sourceTree = "<group>"; };
 		00D0D4BF1B4B791E0020A5C7 /* FileManagerUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileManagerUtils.h; sourceTree = "<group>"; };
 		00D0D4C01B4B791E0020A5C7 /* FileManagerUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileManagerUtils.m; sourceTree = "<group>"; };
+		00D0F52B1B4D0B220040CDC7 /* UIImage+FileName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FileName.h"; sourceTree = "<group>"; };
+		00D0F52C1B4D0B220040CDC7 /* UIImage+FileName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FileName.m"; sourceTree = "<group>"; };
+		00D0F52E1B4D22120040CDC7 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		00D0F52F1B4D22120040CDC7 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		00D0F5321B4D3C570040CDC7 /* NSArray+SafeAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+SafeAccess.h"; sourceTree = "<group>"; };
+		00D0F5331B4D3C570040CDC7 /* NSArray+SafeAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+SafeAccess.m"; sourceTree = "<group>"; };
 		521D3C9AA7D9542E7B98A922 /* libPods-iOSDevTemplate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSDevTemplate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C44487AD009E48702A812240 /* Pods-iOSDevTemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSDevTemplate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSDevTemplate/Pods-iOSDevTemplate.debug.xcconfig"; sourceTree = "<group>"; };
 		E368C08A37FE1B28E2957989 /* Pods-iOSDevTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSDevTemplate.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSDevTemplate/Pods-iOSDevTemplate.release.xcconfig"; sourceTree = "<group>"; };
@@ -219,6 +228,8 @@
 		00C6665F1B494319007CADFF /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				00D0F5311B4D3C570040CDC7 /* NSArray */,
+				00D0F52A1B4D0AC90040CDC7 /* UIImage */,
 				006B5E3C1B4BC0A200028BFF /* NSString */,
 			);
 			path = Category;
@@ -302,6 +313,26 @@
 				00D0D4BB1B4B68750020A5C7 /* MBProgressHUDWrap.m */,
 			);
 			path = MBProgressHUDWrap;
+			sourceTree = "<group>";
+		};
+		00D0F52A1B4D0AC90040CDC7 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				00D0F52B1B4D0B220040CDC7 /* UIImage+FileName.h */,
+				00D0F52C1B4D0B220040CDC7 /* UIImage+FileName.m */,
+				00D0F52E1B4D22120040CDC7 /* UIImage+Color.h */,
+				00D0F52F1B4D22120040CDC7 /* UIImage+Color.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		00D0F5311B4D3C570040CDC7 /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				00D0F5321B4D3C570040CDC7 /* NSArray+SafeAccess.h */,
+				00D0F5331B4D3C570040CDC7 /* NSArray+SafeAccess.m */,
+			);
+			path = NSArray;
 			sourceTree = "<group>";
 		};
 		24CF1D859631CE07E1FD2A05 /* Pods */ = {
@@ -465,9 +496,12 @@
 				006B5E3F1B4BC0A200028BFF /* NSString+Pinyin.m in Sources */,
 				00D0D4C11B4B791E0020A5C7 /* FileManagerUtils.m in Sources */,
 				00C6668F1B4995E7007CADFF /* BaseTableViewController.m in Sources */,
+				00D0F5341B4D3C570040CDC7 /* NSArray+SafeAccess.m in Sources */,
 				00C6663E1B492F0A007CADFF /* ViewController.m in Sources */,
 				00CF53B81B4AE18200D0C8F0 /* UserDefaultsUtils.m in Sources */,
+				00D0F5301B4D22120040CDC7 /* UIImage+Color.m in Sources */,
 				00D0D4BE1B4B68750020A5C7 /* MBProgressHUDWrap.m in Sources */,
+				00D0F52D1B4D0B220040CDC7 /* UIImage+FileName.m in Sources */,
 				00C666741B49475A007CADFF /* ResponseBaseModel.m in Sources */,
 				00C666381B492F0A007CADFF /* main.m in Sources */,
 				00C666731B49475A007CADFF /* RequestBaseModel.m in Sources */,
