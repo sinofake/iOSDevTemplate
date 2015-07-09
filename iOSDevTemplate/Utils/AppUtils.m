@@ -10,4 +10,24 @@
 
 @implementation AppUtils
 
++ (NSString*)appIconPath {
+    NSString* iconFilename = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleIconFile"] ;
+    NSString* iconBasename = [iconFilename stringByDeletingPathExtension] ;
+    NSString* iconExtension = [iconFilename pathExtension] ;
+    return [[NSBundle mainBundle] pathForResource:iconBasename
+                                           ofType:iconExtension] ;
+}
+
++ (UIImage*)appIcon {
+    UIImage*appIcon = [[UIImage alloc] initWithContentsOfFile:[self appIconPath]];
+    return appIcon;
+}
+
++ (NSString *)UUID {
+    CFUUIDRef uuidRef = CFUUIDCreate(NULL);
+    CFStringRef uuid = CFUUIDCreateString(NULL, uuidRef);
+    CFRelease(uuidRef);
+    return (__bridge_transfer NSString *)uuid;
+}
+
 @end

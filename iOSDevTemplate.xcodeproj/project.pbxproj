@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		006B5E3F1B4BC0A200028BFF /* NSString+Pinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = 006B5E3E1B4BC0A200028BFF /* NSString+Pinyin.m */; };
+		00A525F01B4E311000EECFA6 /* NSDictionary+Merge.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A525EF1B4E311000EECFA6 /* NSDictionary+Merge.m */; };
+		00A525F31B4E313C00EECFA6 /* NSDictionary+SafeAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A525F21B4E313C00EECFA6 /* NSDictionary+SafeAccess.m */; };
+		00A525F71B4E430B00EECFA6 /* AutoCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A525F61B4E430B00EECFA6 /* AutoCoding.m */; };
+		00A525FA1B4E469B00EECFA6 /* NSString+SSAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A525F91B4E469B00EECFA6 /* NSString+SSAddition.m */; };
+		00A526061B4E5F1800EECFA6 /* NSString+RegexCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A526051B4E5F1800EECFA6 /* NSString+RegexCategory.m */; };
+		00A5260F1B4E7A5D00EECFA6 /* CAAnimation+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A526091B4E7A5D00EECFA6 /* CAAnimation+Blocks.m */; };
+		00A526101B4E7A5D00EECFA6 /* CAAnimation+EasingEquations.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A5260B1B4E7A5D00EECFA6 /* CAAnimation+EasingEquations.m */; };
+		00A526111B4E7A5D00EECFA6 /* CAMediaTimingFunction+AdditionalEquations.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A5260E1B4E7A5D00EECFA6 /* CAMediaTimingFunction+AdditionalEquations.m */; };
+		00A526141B4E83CF00EECFA6 /* NSArray+SSAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A526131B4E83CF00EECFA6 /* NSArray+SSAddition.m */; };
 		00C666381B492F0A007CADFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C666371B492F0A007CADFF /* main.m */; };
 		00C6663E1B492F0A007CADFF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C6663D1B492F0A007CADFF /* ViewController.m */; };
 		00C666411B492F0A007CADFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00C6663F1B492F0A007CADFF /* Main.storyboard */; };
@@ -51,6 +60,24 @@
 /* Begin PBXFileReference section */
 		006B5E3D1B4BC0A200028BFF /* NSString+Pinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Pinyin.h"; sourceTree = "<group>"; };
 		006B5E3E1B4BC0A200028BFF /* NSString+Pinyin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Pinyin.m"; sourceTree = "<group>"; };
+		00A525EE1B4E311000EECFA6 /* NSDictionary+Merge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Merge.h"; sourceTree = "<group>"; };
+		00A525EF1B4E311000EECFA6 /* NSDictionary+Merge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Merge.m"; sourceTree = "<group>"; };
+		00A525F11B4E313C00EECFA6 /* NSDictionary+SafeAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SafeAccess.h"; sourceTree = "<group>"; };
+		00A525F21B4E313C00EECFA6 /* NSDictionary+SafeAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+SafeAccess.m"; sourceTree = "<group>"; };
+		00A525F51B4E430B00EECFA6 /* AutoCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoCoding.h; sourceTree = "<group>"; };
+		00A525F61B4E430B00EECFA6 /* AutoCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoCoding.m; sourceTree = "<group>"; };
+		00A525F81B4E469B00EECFA6 /* NSString+SSAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SSAddition.h"; sourceTree = "<group>"; };
+		00A525F91B4E469B00EECFA6 /* NSString+SSAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SSAddition.m"; sourceTree = "<group>"; };
+		00A526041B4E5F1800EECFA6 /* NSString+RegexCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RegexCategory.h"; sourceTree = "<group>"; };
+		00A526051B4E5F1800EECFA6 /* NSString+RegexCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RegexCategory.m"; sourceTree = "<group>"; };
+		00A526081B4E7A5D00EECFA6 /* CAAnimation+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAAnimation+Blocks.h"; sourceTree = "<group>"; };
+		00A526091B4E7A5D00EECFA6 /* CAAnimation+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAAnimation+Blocks.m"; sourceTree = "<group>"; };
+		00A5260A1B4E7A5D00EECFA6 /* CAAnimation+EasingEquations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAAnimation+EasingEquations.h"; sourceTree = "<group>"; };
+		00A5260B1B4E7A5D00EECFA6 /* CAAnimation+EasingEquations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAAnimation+EasingEquations.m"; sourceTree = "<group>"; };
+		00A5260D1B4E7A5D00EECFA6 /* CAMediaTimingFunction+AdditionalEquations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAMediaTimingFunction+AdditionalEquations.h"; sourceTree = "<group>"; };
+		00A5260E1B4E7A5D00EECFA6 /* CAMediaTimingFunction+AdditionalEquations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAMediaTimingFunction+AdditionalEquations.m"; sourceTree = "<group>"; };
+		00A526121B4E83CF00EECFA6 /* NSArray+SSAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+SSAddition.h"; sourceTree = "<group>"; };
+		00A526131B4E83CF00EECFA6 /* NSArray+SSAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+SSAddition.m"; sourceTree = "<group>"; };
 		00C666321B492F0A007CADFF /* iOSDevTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSDevTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00C666361B492F0A007CADFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00C666371B492F0A007CADFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -131,10 +158,54 @@
 		006B5E3C1B4BC0A200028BFF /* NSString */ = {
 			isa = PBXGroup;
 			children = (
+				00A526041B4E5F1800EECFA6 /* NSString+RegexCategory.h */,
+				00A526051B4E5F1800EECFA6 /* NSString+RegexCategory.m */,
 				006B5E3D1B4BC0A200028BFF /* NSString+Pinyin.h */,
 				006B5E3E1B4BC0A200028BFF /* NSString+Pinyin.m */,
+				00A525F81B4E469B00EECFA6 /* NSString+SSAddition.h */,
+				00A525F91B4E469B00EECFA6 /* NSString+SSAddition.m */,
 			);
 			path = NSString;
+			sourceTree = "<group>";
+		};
+		00A525ED1B4E311000EECFA6 /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				00A525F11B4E313C00EECFA6 /* NSDictionary+SafeAccess.h */,
+				00A525F21B4E313C00EECFA6 /* NSDictionary+SafeAccess.m */,
+				00A525EE1B4E311000EECFA6 /* NSDictionary+Merge.h */,
+				00A525EF1B4E311000EECFA6 /* NSDictionary+Merge.m */,
+			);
+			path = NSDictionary;
+			sourceTree = "<group>";
+		};
+		00A525F41B4E430B00EECFA6 /* AutoCoding */ = {
+			isa = PBXGroup;
+			children = (
+				00A525F51B4E430B00EECFA6 /* AutoCoding.h */,
+				00A525F61B4E430B00EECFA6 /* AutoCoding.m */,
+			);
+			path = AutoCoding;
+			sourceTree = "<group>";
+		};
+		00A526071B4E7A5D00EECFA6 /* CAAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				00A526081B4E7A5D00EECFA6 /* CAAnimation+Blocks.h */,
+				00A526091B4E7A5D00EECFA6 /* CAAnimation+Blocks.m */,
+				00A5260A1B4E7A5D00EECFA6 /* CAAnimation+EasingEquations.h */,
+				00A5260B1B4E7A5D00EECFA6 /* CAAnimation+EasingEquations.m */,
+			);
+			path = CAAnimation;
+			sourceTree = "<group>";
+		};
+		00A5260C1B4E7A5D00EECFA6 /* CAMediaTimingFunction */ = {
+			isa = PBXGroup;
+			children = (
+				00A5260D1B4E7A5D00EECFA6 /* CAMediaTimingFunction+AdditionalEquations.h */,
+				00A5260E1B4E7A5D00EECFA6 /* CAMediaTimingFunction+AdditionalEquations.m */,
+			);
+			path = CAMediaTimingFunction;
 			sourceTree = "<group>";
 		};
 		00C666291B492F0A007CADFF = {
@@ -228,6 +299,10 @@
 		00C6665F1B494319007CADFF /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				00A526071B4E7A5D00EECFA6 /* CAAnimation */,
+				00A5260C1B4E7A5D00EECFA6 /* CAMediaTimingFunction */,
+				00A525F41B4E430B00EECFA6 /* AutoCoding */,
+				00A525ED1B4E311000EECFA6 /* NSDictionary */,
 				00D0F5311B4D3C570040CDC7 /* NSArray */,
 				00D0F52A1B4D0AC90040CDC7 /* UIImage */,
 				006B5E3C1B4BC0A200028BFF /* NSString */,
@@ -331,6 +406,8 @@
 			children = (
 				00D0F5321B4D3C570040CDC7 /* NSArray+SafeAccess.h */,
 				00D0F5331B4D3C570040CDC7 /* NSArray+SafeAccess.m */,
+				00A526121B4E83CF00EECFA6 /* NSArray+SSAddition.h */,
+				00A526131B4E83CF00EECFA6 /* NSArray+SSAddition.m */,
 			);
 			path = NSArray;
 			sourceTree = "<group>";
@@ -496,21 +573,30 @@
 				006B5E3F1B4BC0A200028BFF /* NSString+Pinyin.m in Sources */,
 				00D0D4C11B4B791E0020A5C7 /* FileManagerUtils.m in Sources */,
 				00C6668F1B4995E7007CADFF /* BaseTableViewController.m in Sources */,
+				00A526101B4E7A5D00EECFA6 /* CAAnimation+EasingEquations.m in Sources */,
 				00D0F5341B4D3C570040CDC7 /* NSArray+SafeAccess.m in Sources */,
+				00A5260F1B4E7A5D00EECFA6 /* CAAnimation+Blocks.m in Sources */,
 				00C6663E1B492F0A007CADFF /* ViewController.m in Sources */,
+				00A525FA1B4E469B00EECFA6 /* NSString+SSAddition.m in Sources */,
 				00CF53B81B4AE18200D0C8F0 /* UserDefaultsUtils.m in Sources */,
 				00D0F5301B4D22120040CDC7 /* UIImage+Color.m in Sources */,
 				00D0D4BE1B4B68750020A5C7 /* MBProgressHUDWrap.m in Sources */,
 				00D0F52D1B4D0B220040CDC7 /* UIImage+FileName.m in Sources */,
 				00C666741B49475A007CADFF /* ResponseBaseModel.m in Sources */,
 				00C666381B492F0A007CADFF /* main.m in Sources */,
+				00A525F71B4E430B00EECFA6 /* AutoCoding.m in Sources */,
+				00A526061B4E5F1800EECFA6 /* NSString+RegexCategory.m in Sources */,
+				00A525F31B4E313C00EECFA6 /* NSDictionary+SafeAccess.m in Sources */,
 				00C666731B49475A007CADFF /* RequestBaseModel.m in Sources */,
 				00C6668C1B499579007CADFF /* BaseTabBarController.m in Sources */,
 				00C666751B49475A007CADFF /* UrlArgumentsFilter.m in Sources */,
+				00A525F01B4E311000EECFA6 /* NSDictionary+Merge.m in Sources */,
 				00C6667F1B49901C007CADFF /* AppUtils.m in Sources */,
+				00A526141B4E83CF00EECFA6 /* NSArray+SSAddition.m in Sources */,
 				00C666881B49949B007CADFF /* BaseNavigationController.m in Sources */,
 				00C666621B494319007CADFF /* AppDelegate.m in Sources */,
 				00C666791B4947D8007CADFF /* AccountManager.m in Sources */,
+				00A526111B4E7A5D00EECFA6 /* CAMediaTimingFunction+AdditionalEquations.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

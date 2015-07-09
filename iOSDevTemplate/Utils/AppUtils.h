@@ -10,4 +10,8 @@
 
 @interface AppUtils : NSObject
 
++ (UIImage*)appIcon;
+
++ (NSString *)UUID;
+
 @end

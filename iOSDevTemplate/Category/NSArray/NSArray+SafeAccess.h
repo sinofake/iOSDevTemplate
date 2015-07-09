@@ -11,7 +11,7 @@
 
 @interface NSArray (SafeAccess)
 
-- (id)objectWithIndex:(NSUInteger)index;
+- (id)safeObjectAtIndex:(NSUInteger)index;
 
 - (NSString*)stringWithIndex:(NSUInteger)index;
 
@@ -22,5 +22,18 @@
 - (NSArray*)arrayWithIndex:(NSUInteger)index;
 
 - (NSDictionary*)dictionaryWithIndex:(NSUInteger)index;
+
+- (NSInteger)integerWithIndex:(NSUInteger)index;
+
+- (NSUInteger)unsignedIntegerWithIndex:(NSUInteger)index;
+
+- (BOOL)boolWithIndex:(NSUInteger)index;
+
+- (float)floatWithIndex:(NSUInteger)index;
+
+- (double)doubleWithIndex:(NSUInteger)index;
+
+//CG
+- (CGFloat)CGFloatWithIndex:(NSUInteger)index;
 
 @end
