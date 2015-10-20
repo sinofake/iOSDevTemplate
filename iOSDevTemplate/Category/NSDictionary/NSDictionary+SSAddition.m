@@ -1,14 +1,15 @@
 //
-//  NSDictionary+Merge.m
-//  iOS-Categories (https://github.com/shaojiankui/iOS-Categories)
+//  NSDictionary+SSAddition.m
+//  iOSDevTemplate
 //
-//  Created by Jakey on 15/1/25.
-//  Copyright (c) 2015年 www.skyfox.org. All rights reserved.
+//  Created by zhucuirong on 15/7/10.
+//  Copyright (c) 2015年 SINOFAKE SINEP. All rights reserved.
 //
 
-#import "NSDictionary+Merge.h"
+#import "NSDictionary+SSAddition.h"
 
-@implementation NSDictionary (Merge)
+@implementation NSDictionary (SSAddition)
+
 + (NSDictionary *)dictionaryByMerging:(NSDictionary *)dict1 with:(NSDictionary *)dict2 {
     NSMutableDictionary * result = [NSMutableDictionary dictionaryWithDictionary:dict1];
     [dict2 enumerateKeysAndObjectsUsingBlock: ^(id key, id obj, BOOL *stop) {
@@ -23,7 +24,15 @@
     }];
     return (NSDictionary *) [result mutableCopy];
 }
+
 - (NSDictionary *)dictionaryByMergingWith:(NSDictionary *)dict {
     return [[self class] dictionaryByMerging:self with: dict];
 }
+
+
+- (NSMutableDictionary *)deepMutableCopy {
+    return (__bridge_transfer NSMutableDictionary *)CFPropertyListCreateDeepCopy(kCFAllocatorDefault, (__bridge CFDictionaryRef)self, kCFPropertyListMutableContainers);
+}
+
+
 @end

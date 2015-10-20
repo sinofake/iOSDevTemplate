@@ -12,10 +12,9 @@
 
 - (BOOL)ss_containsString:(NSString *)string;
 
-- (NSString *)reversedString;
+- (NSString *)ss_md5;
 
-- (NSString *)stringByStrippingHTML;
-- (NSString *)stringByRemovingScriptsAndStrippingHTML;
+- (NSString *)reversedString;
 
 - (NSString *)trimmingWhitespace;
 - (NSString *)trimmingWhitespaceAndNewlines;
@@ -26,5 +25,34 @@
 - (NSString *)capitalizedSentence;
 
 - (NSInteger)numberOfLineBreaks;
+
+
+///--------------------------
+/// @name Working with Ranges
+///--------------------------
+
+/**
+ Adjust a range to account for composed characters.
+ 
+ @param range Input range
+ @return adjusted range
+ */
+- (NSRange)ss_composedRangeWithRange:(NSRange)range;
+
+/**
+ Adjust a range to account for composed characters and get a substring for that range.
+ 
+ @param range Input range
+ @return Substring with adjusted range
+ */
+- (NSString *)ss_composedSubstringWithRange:(NSRange)range;
+
+/**
+ Get the range of a word for a given character index.
+ 
+ @param index Character index
+ @return Range of the containing word.
+ */
+- (NSRange)ss_wordRangeAtIndex:(NSUInteger)index;
 
 @end

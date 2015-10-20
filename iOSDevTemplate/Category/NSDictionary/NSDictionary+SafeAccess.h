@@ -11,6 +11,13 @@
 
 @interface NSDictionary (SafeAccess)
 
+/**
+ Returns the object for the specified key or `nil` if the value is `[NSNull null]`.
+ 
+ @param key The key used to look up the object in the receiver.
+ 
+ @return The object for the specified key or `nil` if the value is `[NSNull null]`.
+ */
 - (id)safeObjectForKey:(id)aKey;
 
 - (NSString*)stringForKey:(id)key;

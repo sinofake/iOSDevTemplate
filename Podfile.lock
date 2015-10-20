@@ -24,9 +24,9 @@ PODS:
     - AFNetworking/NSURLSession
   - JSONModel (1.1.0)
   - MBProgressHUD (0.9.1)
-  - SDWebImage (3.7.2):
-    - SDWebImage/Core (= 3.7.2)
-  - SDWebImage/Core (3.7.2)
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
   - YTKNetwork (0.5.0):
     - AFDownloadRequestOperation (~> 2.0)
     - AFNetworking (~> 2.0)
@@ -42,7 +42,7 @@ SPEC CHECKSUMS:
   AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
   JSONModel: ec77e9865236a7a09d9cf7668df6b4b328d9ec1d
   MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
-  SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
   YTKNetwork: 3f163c181ce5f03d52cf88f39d6757f46894280c
 
-COCOAPODS: 0.37.2
+COCOAPODS: 0.39.0

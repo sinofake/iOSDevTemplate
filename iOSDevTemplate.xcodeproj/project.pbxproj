@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		006B5E3F1B4BC0A200028BFF /* NSString+Pinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = 006B5E3E1B4BC0A200028BFF /* NSString+Pinyin.m */; };
-		00A525F01B4E311000EECFA6 /* NSDictionary+Merge.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A525EF1B4E311000EECFA6 /* NSDictionary+Merge.m */; };
 		00A525F31B4E313C00EECFA6 /* NSDictionary+SafeAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A525F21B4E313C00EECFA6 /* NSDictionary+SafeAccess.m */; };
 		00A525F71B4E430B00EECFA6 /* AutoCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A525F61B4E430B00EECFA6 /* AutoCoding.m */; };
 		00A525FA1B4E469B00EECFA6 /* NSString+SSAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A525F91B4E469B00EECFA6 /* NSString+SSAddition.m */; };
@@ -36,6 +35,12 @@
 		00C666881B49949B007CADFF /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C666871B49949B007CADFF /* BaseNavigationController.m */; };
 		00C6668C1B499579007CADFF /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C6668B1B499579007CADFF /* BaseTabBarController.m */; };
 		00C6668F1B4995E7007CADFF /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C6668E1B4995E7007CADFF /* BaseTableViewController.m */; };
+		00CEE2FE1B4EE20000AD3AEF /* NSDictionary+SSAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CEE2FD1B4EE20000AD3AEF /* NSDictionary+SSAddition.m */; };
+		00CEE3021B4EE6FE00AD3AEF /* UIColor+Effect.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CEE3011B4EE6FE00AD3AEF /* UIColor+Effect.m */; };
+		00CEE3101B4EEEB700AD3AEF /* UITextField+Appearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CEE30D1B4EEEB700AD3AEF /* UITextField+Appearance.m */; };
+		00CEE3111B4EEEB700AD3AEF /* UITextField+Behaviour.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CEE30F1B4EEEB700AD3AEF /* UITextField+Behaviour.m */; };
+		00CEE3151B4EEF3700AD3AEF /* UIView+Effect.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CEE3141B4EEF3700AD3AEF /* UIView+Effect.m */; };
+		00CEE31B1B4EF07A00AD3AEF /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CEE31A1B4EF07A00AD3AEF /* UIView+Frame.m */; };
 		00CF53B81B4AE18200D0C8F0 /* UserDefaultsUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CF53B71B4AE18200D0C8F0 /* UserDefaultsUtils.m */; };
 		00D0D4BC1B4B68750020A5C7 /* 37x-Checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 00D0D4B81B4B68740020A5C7 /* 37x-Checkmark.png */; };
 		00D0D4BD1B4B68750020A5C7 /* 37x-Checkmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00D0D4B91B4B68740020A5C7 /* 37x-Checkmark@2x.png */; };
@@ -60,8 +65,6 @@
 /* Begin PBXFileReference section */
 		006B5E3D1B4BC0A200028BFF /* NSString+Pinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Pinyin.h"; sourceTree = "<group>"; };
 		006B5E3E1B4BC0A200028BFF /* NSString+Pinyin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Pinyin.m"; sourceTree = "<group>"; };
-		00A525EE1B4E311000EECFA6 /* NSDictionary+Merge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Merge.h"; sourceTree = "<group>"; };
-		00A525EF1B4E311000EECFA6 /* NSDictionary+Merge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Merge.m"; sourceTree = "<group>"; };
 		00A525F11B4E313C00EECFA6 /* NSDictionary+SafeAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SafeAccess.h"; sourceTree = "<group>"; };
 		00A525F21B4E313C00EECFA6 /* NSDictionary+SafeAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+SafeAccess.m"; sourceTree = "<group>"; };
 		00A525F51B4E430B00EECFA6 /* AutoCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoCoding.h; sourceTree = "<group>"; };
@@ -117,6 +120,18 @@
 		00C6668B1B499579007CADFF /* BaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
 		00C6668D1B4995E7007CADFF /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
 		00C6668E1B4995E7007CADFF /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
+		00CEE2FC1B4EE20000AD3AEF /* NSDictionary+SSAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SSAddition.h"; sourceTree = "<group>"; };
+		00CEE2FD1B4EE20000AD3AEF /* NSDictionary+SSAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+SSAddition.m"; sourceTree = "<group>"; };
+		00CEE3001B4EE6FE00AD3AEF /* UIColor+Effect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Effect.h"; sourceTree = "<group>"; };
+		00CEE3011B4EE6FE00AD3AEF /* UIColor+Effect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Effect.m"; sourceTree = "<group>"; };
+		00CEE30C1B4EEEB700AD3AEF /* UITextField+Appearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Appearance.h"; sourceTree = "<group>"; };
+		00CEE30D1B4EEEB700AD3AEF /* UITextField+Appearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Appearance.m"; sourceTree = "<group>"; };
+		00CEE30E1B4EEEB700AD3AEF /* UITextField+Behaviour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Behaviour.h"; sourceTree = "<group>"; };
+		00CEE30F1B4EEEB700AD3AEF /* UITextField+Behaviour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Behaviour.m"; sourceTree = "<group>"; };
+		00CEE3131B4EEF3700AD3AEF /* UIView+Effect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Effect.h"; sourceTree = "<group>"; };
+		00CEE3141B4EEF3700AD3AEF /* UIView+Effect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Effect.m"; sourceTree = "<group>"; };
+		00CEE3191B4EF07A00AD3AEF /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		00CEE31A1B4EF07A00AD3AEF /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		00CF53B61B4AE18200D0C8F0 /* UserDefaultsUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultsUtils.h; sourceTree = "<group>"; };
 		00CF53B71B4AE18200D0C8F0 /* UserDefaultsUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultsUtils.m; sourceTree = "<group>"; };
 		00D0D4B81B4B68740020A5C7 /* 37x-Checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "37x-Checkmark.png"; sourceTree = "<group>"; };
@@ -173,8 +188,8 @@
 			children = (
 				00A525F11B4E313C00EECFA6 /* NSDictionary+SafeAccess.h */,
 				00A525F21B4E313C00EECFA6 /* NSDictionary+SafeAccess.m */,
-				00A525EE1B4E311000EECFA6 /* NSDictionary+Merge.h */,
-				00A525EF1B4E311000EECFA6 /* NSDictionary+Merge.m */,
+				00CEE2FC1B4EE20000AD3AEF /* NSDictionary+SSAddition.h */,
+				00CEE2FD1B4EE20000AD3AEF /* NSDictionary+SSAddition.m */,
 			);
 			path = NSDictionary;
 			sourceTree = "<group>";
@@ -299,6 +314,9 @@
 		00C6665F1B494319007CADFF /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				00CEE3121B4EEF3700AD3AEF /* UIView */,
+				00CEE30B1B4EEEB700AD3AEF /* UITextField */,
+				00CEE2FF1B4EE6FE00AD3AEF /* UIColor */,
 				00A526071B4E7A5D00EECFA6 /* CAAnimation */,
 				00A5260C1B4E7A5D00EECFA6 /* CAMediaTimingFunction */,
 				00A525F41B4E430B00EECFA6 /* AutoCoding */,
@@ -379,6 +397,37 @@
 			path = Base;
 			sourceTree = "<group>";
 		};
+		00CEE2FF1B4EE6FE00AD3AEF /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				00CEE3001B4EE6FE00AD3AEF /* UIColor+Effect.h */,
+				00CEE3011B4EE6FE00AD3AEF /* UIColor+Effect.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		00CEE30B1B4EEEB700AD3AEF /* UITextField */ = {
+			isa = PBXGroup;
+			children = (
+				00CEE30C1B4EEEB700AD3AEF /* UITextField+Appearance.h */,
+				00CEE30D1B4EEEB700AD3AEF /* UITextField+Appearance.m */,
+				00CEE30E1B4EEEB700AD3AEF /* UITextField+Behaviour.h */,
+				00CEE30F1B4EEEB700AD3AEF /* UITextField+Behaviour.m */,
+			);
+			path = UITextField;
+			sourceTree = "<group>";
+		};
+		00CEE3121B4EEF3700AD3AEF /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				00CEE3191B4EF07A00AD3AEF /* UIView+Frame.h */,
+				00CEE31A1B4EF07A00AD3AEF /* UIView+Frame.m */,
+				00CEE3131B4EEF3700AD3AEF /* UIView+Effect.h */,
+				00CEE3141B4EEF3700AD3AEF /* UIView+Effect.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
 		00D0D4B71B4B68740020A5C7 /* MBProgressHUDWrap */ = {
 			isa = PBXGroup;
 			children = (
@@ -441,6 +490,7 @@
 				00C6662F1B492F0A007CADFF /* Frameworks */,
 				00C666301B492F0A007CADFF /* Resources */,
 				E329C2AFAFA8A41A9ED3985F /* Copy Pods Resources */,
+				9EBCA4A3D0A6E2B3983A3902 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -544,6 +594,21 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		9EBCA4A3D0A6E2B3983A3902 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSDevTemplate/Pods-iOSDevTemplate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		E329C2AFAFA8A41A9ED3985F /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -566,15 +631,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00CEE3021B4EE6FE00AD3AEF /* UIColor+Effect.m in Sources */,
 				00C666721B49475A007CADFF /* BaseApi.m in Sources */,
 				00C666851B499415007CADFF /* BaseViewController.m in Sources */,
 				00C6667C1B49516C007CADFF /* ApiHook.m in Sources */,
 				00C666651B494359007CADFF /* AppLaunchHelper.m in Sources */,
 				006B5E3F1B4BC0A200028BFF /* NSString+Pinyin.m in Sources */,
+				00CEE3101B4EEEB700AD3AEF /* UITextField+Appearance.m in Sources */,
 				00D0D4C11B4B791E0020A5C7 /* FileManagerUtils.m in Sources */,
 				00C6668F1B4995E7007CADFF /* BaseTableViewController.m in Sources */,
 				00A526101B4E7A5D00EECFA6 /* CAAnimation+EasingEquations.m in Sources */,
+				00CEE2FE1B4EE20000AD3AEF /* NSDictionary+SSAddition.m in Sources */,
 				00D0F5341B4D3C570040CDC7 /* NSArray+SafeAccess.m in Sources */,
+				00CEE31B1B4EF07A00AD3AEF /* UIView+Frame.m in Sources */,
 				00A5260F1B4E7A5D00EECFA6 /* CAAnimation+Blocks.m in Sources */,
 				00C6663E1B492F0A007CADFF /* ViewController.m in Sources */,
 				00A525FA1B4E469B00EECFA6 /* NSString+SSAddition.m in Sources */,
@@ -590,11 +659,12 @@
 				00C666731B49475A007CADFF /* RequestBaseModel.m in Sources */,
 				00C6668C1B499579007CADFF /* BaseTabBarController.m in Sources */,
 				00C666751B49475A007CADFF /* UrlArgumentsFilter.m in Sources */,
-				00A525F01B4E311000EECFA6 /* NSDictionary+Merge.m in Sources */,
 				00C6667F1B49901C007CADFF /* AppUtils.m in Sources */,
 				00A526141B4E83CF00EECFA6 /* NSArray+SSAddition.m in Sources */,
 				00C666881B49949B007CADFF /* BaseNavigationController.m in Sources */,
 				00C666621B494319007CADFF /* AppDelegate.m in Sources */,
+				00CEE3111B4EEEB700AD3AEF /* UITextField+Behaviour.m in Sources */,
+				00CEE3151B4EEF3700AD3AEF /* UIView+Effect.m in Sources */,
 				00C666791B4947D8007CADFF /* AccountManager.m in Sources */,
 				00A526111B4E7A5D00EECFA6 /* CAMediaTimingFunction+AdditionalEquations.m in Sources */,
 			);
@@ -674,7 +744,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -711,7 +781,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
