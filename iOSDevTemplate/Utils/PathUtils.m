@@ -6,9 +6,9 @@
 //  Copyright (c) 2015年 SINOFAKE SINEP. All rights reserved.
 //
 
-#import "FileManagerUtils.h"
+#import "PathUtils.h"
 
-@implementation FileManagerUtils
+@implementation PathUtils
 
 + (NSURL *)URLForDirectory:(NSSearchPathDirectory)directory {
     return [[NSFileManager defaultManager] URLsForDirectory:directory inDomains:NSUserDomainMask].lastObject;

@@ -23,7 +23,6 @@
     // Override point for customization after application launch.
     [AppLaunchHelper launch];
     
-    
     return YES;
 }
 

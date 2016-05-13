@@ -35,6 +35,7 @@
 		00C666881B49949B007CADFF /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C666871B49949B007CADFF /* BaseNavigationController.m */; };
 		00C6668C1B499579007CADFF /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C6668B1B499579007CADFF /* BaseTabBarController.m */; };
 		00C6668F1B4995E7007CADFF /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C6668E1B4995E7007CADFF /* BaseTableViewController.m */; };
+		00CCBA381CE5E10D00FCB961 /* UIImage+Capture.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CCBA371CE5E10D00FCB961 /* UIImage+Capture.m */; };
 		00CEE2FE1B4EE20000AD3AEF /* NSDictionary+SSAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CEE2FD1B4EE20000AD3AEF /* NSDictionary+SSAddition.m */; };
 		00CEE3021B4EE6FE00AD3AEF /* UIColor+Effect.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CEE3011B4EE6FE00AD3AEF /* UIColor+Effect.m */; };
 		00CEE3101B4EEEB700AD3AEF /* UITextField+Appearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CEE30D1B4EEEB700AD3AEF /* UITextField+Appearance.m */; };
@@ -45,7 +46,7 @@
 		00D0D4BC1B4B68750020A5C7 /* 37x-Checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 00D0D4B81B4B68740020A5C7 /* 37x-Checkmark.png */; };
 		00D0D4BD1B4B68750020A5C7 /* 37x-Checkmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00D0D4B91B4B68740020A5C7 /* 37x-Checkmark@2x.png */; };
 		00D0D4BE1B4B68750020A5C7 /* MBProgressHUDWrap.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D0D4BB1B4B68750020A5C7 /* MBProgressHUDWrap.m */; };
-		00D0D4C11B4B791E0020A5C7 /* FileManagerUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D0D4C01B4B791E0020A5C7 /* FileManagerUtils.m */; };
+		00D0D4C11B4B791E0020A5C7 /* PathUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D0D4C01B4B791E0020A5C7 /* PathUtils.m */; };
 		00D0F52D1B4D0B220040CDC7 /* UIImage+FileName.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D0F52C1B4D0B220040CDC7 /* UIImage+FileName.m */; };
 		00D0F5301B4D22120040CDC7 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D0F52F1B4D22120040CDC7 /* UIImage+Color.m */; };
 		00D0F5341B4D3C570040CDC7 /* NSArray+SafeAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D0F5331B4D3C570040CDC7 /* NSArray+SafeAccess.m */; };
@@ -120,6 +121,8 @@
 		00C6668B1B499579007CADFF /* BaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
 		00C6668D1B4995E7007CADFF /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
 		00C6668E1B4995E7007CADFF /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
+		00CCBA361CE5E10D00FCB961 /* UIImage+Capture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Capture.h"; sourceTree = "<group>"; };
+		00CCBA371CE5E10D00FCB961 /* UIImage+Capture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Capture.m"; sourceTree = "<group>"; };
 		00CEE2FC1B4EE20000AD3AEF /* NSDictionary+SSAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SSAddition.h"; sourceTree = "<group>"; };
 		00CEE2FD1B4EE20000AD3AEF /* NSDictionary+SSAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+SSAddition.m"; sourceTree = "<group>"; };
 		00CEE3001B4EE6FE00AD3AEF /* UIColor+Effect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Effect.h"; sourceTree = "<group>"; };
@@ -138,8 +141,8 @@
 		00D0D4B91B4B68740020A5C7 /* 37x-Checkmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "37x-Checkmark@2x.png"; sourceTree = "<group>"; };
 		00D0D4BA1B4B68740020A5C7 /* MBProgressHUDWrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUDWrap.h; sourceTree = "<group>"; };
 		00D0D4BB1B4B68750020A5C7 /* MBProgressHUDWrap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUDWrap.m; sourceTree = "<group>"; };
-		00D0D4BF1B4B791E0020A5C7 /* FileManagerUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileManagerUtils.h; sourceTree = "<group>"; };
-		00D0D4C01B4B791E0020A5C7 /* FileManagerUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileManagerUtils.m; sourceTree = "<group>"; };
+		00D0D4BF1B4B791E0020A5C7 /* PathUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathUtils.h; sourceTree = "<group>"; };
+		00D0D4C01B4B791E0020A5C7 /* PathUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathUtils.m; sourceTree = "<group>"; };
 		00D0F52B1B4D0B220040CDC7 /* UIImage+FileName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FileName.h"; sourceTree = "<group>"; };
 		00D0F52C1B4D0B220040CDC7 /* UIImage+FileName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FileName.m"; sourceTree = "<group>"; };
 		00D0F52E1B4D22120040CDC7 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
@@ -343,8 +346,8 @@
 				00C6667E1B49901C007CADFF /* AppUtils.m */,
 				00CF53B61B4AE18200D0C8F0 /* UserDefaultsUtils.h */,
 				00CF53B71B4AE18200D0C8F0 /* UserDefaultsUtils.m */,
-				00D0D4BF1B4B791E0020A5C7 /* FileManagerUtils.h */,
-				00D0D4C01B4B791E0020A5C7 /* FileManagerUtils.m */,
+				00D0D4BF1B4B791E0020A5C7 /* PathUtils.h */,
+				00D0D4C01B4B791E0020A5C7 /* PathUtils.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -446,6 +449,8 @@
 				00D0F52C1B4D0B220040CDC7 /* UIImage+FileName.m */,
 				00D0F52E1B4D22120040CDC7 /* UIImage+Color.h */,
 				00D0F52F1B4D22120040CDC7 /* UIImage+Color.m */,
+				00CCBA361CE5E10D00FCB961 /* UIImage+Capture.h */,
+				00CCBA371CE5E10D00FCB961 /* UIImage+Capture.m */,
 			);
 			path = UIImage;
 			sourceTree = "<group>";
@@ -638,10 +643,11 @@
 				00C666651B494359007CADFF /* AppLaunchHelper.m in Sources */,
 				006B5E3F1B4BC0A200028BFF /* NSString+Pinyin.m in Sources */,
 				00CEE3101B4EEEB700AD3AEF /* UITextField+Appearance.m in Sources */,
-				00D0D4C11B4B791E0020A5C7 /* FileManagerUtils.m in Sources */,
+				00D0D4C11B4B791E0020A5C7 /* PathUtils.m in Sources */,
 				00C6668F1B4995E7007CADFF /* BaseTableViewController.m in Sources */,
 				00A526101B4E7A5D00EECFA6 /* CAAnimation+EasingEquations.m in Sources */,
 				00CEE2FE1B4EE20000AD3AEF /* NSDictionary+SSAddition.m in Sources */,
+				00CCBA381CE5E10D00FCB961 /* UIImage+Capture.m in Sources */,
 				00D0F5341B4D3C570040CDC7 /* NSArray+SafeAccess.m in Sources */,
 				00CEE31B1B4EF07A00AD3AEF /* UIView+Frame.m in Sources */,
 				00A5260F1B4E7A5D00EECFA6 /* CAAnimation+Blocks.m in Sources */,
@@ -796,6 +802,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOSDevTemplate/iOSDevTemplate-Prefix.pch";
 				INFOPLIST_FILE = iOSDevTemplate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -809,6 +816,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOSDevTemplate/iOSDevTemplate-Prefix.pch";
 				INFOPLIST_FILE = iOSDevTemplate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface FileManagerUtils : NSObject
+@interface PathUtils : NSObject
 
 //eg:file:///var/mobile/Containers/Data/Application/E1957A70-1702-483D-9FDA-E15AC7E7CF6F/Documents/
 + (NSURL *)documentsURL;

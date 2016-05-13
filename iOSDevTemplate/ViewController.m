@@ -20,7 +20,9 @@
     // Do any additional setup after loading the view, typically from a nib.
     NSLog(@"\n appIcon:%@, \n appName:%@, \n bundleName:%@, \n appVersion:%@, \n buildVersion:%@, \n deviceName:%@, \n deviceSize:%@, \n deviceVersion:%@", [AppUtils appIcon], [AppUtils appName], [AppUtils bundleName], [AppUtils appVersion], [AppUtils buildVersion], [AppUtils deviceName], DeviceSizeNames[[AppUtils deviceSize]], DeviceVersionNames[[AppUtils deviceVersion]]);
     
+    
     NSLog(@"[UIDevice currentDevice]: \n name:%@, \n model:%@, \n localizedModel:%@, \n systemName:%@, \n systemVersion:%@", [[UIDevice currentDevice] name], [[UIDevice currentDevice] model], [[UIDevice currentDevice] localizedModel], [[UIDevice currentDevice] systemName], [[UIDevice currentDevice] systemVersion]);
+    
     /**
      appIcon:(null),
      appName:(null),
@@ -39,6 +41,7 @@
      systemName:iPhone OS,
      systemVersion:9.0.2,
      */
+    
 }
 
 - (void)didReceiveMemoryWarning {

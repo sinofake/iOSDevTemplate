@@ -9,6 +9,11 @@
 #import "UIImage+Color.h"
 
 @implementation UIImage (Color)
+
++ (UIImage *)imageWithColor:(UIColor *)color {
+    return [UIImage imageWithColor:color andSize:CGSizeMake(1, 1)];
+}
+
 + (UIImage *)imageWithColor:(UIColor *)color andSize:(CGSize)size {
     //// Draws the background colored image.
     CGRect rect = CGRectMake(0.0f, 0.0f, size.width*([UIScreen mainScreen].scale), size.height*([UIScreen mainScreen].scale));
